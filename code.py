@@ -2,12 +2,12 @@
 
 # Class definition
 class Pokemon:
-  def __init__(self, entry, name, types, description, is_caught):
+  def __init__(self, entry, name, types, description, isCaught):
     self.entry = entry
     self.name = name
     self.types = types
     self.description = description
-    self.is_caught = is_caught
+    self.isCaught = isCaught
 
   def speak(self):
     print(self.name + ', ' + self.name + '!')
@@ -23,7 +23,7 @@ class Pokemon:
     
     print('Description: ' + self.description)
 
-    if self.is_caught:
+    if self.isCaught:
       print(self.name + ' has already been caught!')
     else:
       print(self.name + ' hasn\'t been caught yet.')
@@ -33,7 +33,7 @@ pikachu = Pokemon(25, 'Pikachu', ['Electric'], 'It has small electric sacs on bo
 charizard = Pokemon(6, 'Charizard', ['Fire', 'Flying'], 'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.', False)
 gyarados = Pokemon(130, 'Gyarados', ['Water', 'Flying'], 'It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.', False)
 
-mega_charizard_X = Pokemon(6,'Charizard',['Fire','Dragon'],'Coolest Charizard in my opinion',True)
+megaCharizardX = Pokemon(6,'Mega Charizard X',['Fire','Dragon'],'Coolest Charizard in my opinion',True)
 
-mega_charizard_X.display_details()
+megaCharizardX.display_details()
 
