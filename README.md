@@ -10,3 +10,8 @@ git status # Know the current branch with additional information about the commi
 git branch # Know the current branch
 git push -u origin main # Making an upstream of the changes to the current branch, so that they can be saved in a remote repo
 ```
+
+camelCase
+"Writing variables names like -> foodList = []"
+PascalCase
+"Writing varialbes names like -> FoodList = []"
