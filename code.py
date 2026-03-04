@@ -14,8 +14,11 @@ class Pokemon:
   
   def display_details(self):
     print('Entry Number: ' + str(self.entry))
-    print('Name: ' + self.name)
 
+    if self.name == 'Mega Charizard X':
+      print('Name: ' + self.name + ' (Mega Evolution)')
+    else:
+      print('Name: ' + self.name)
     if len(self.types) == 1:
       print('Type: ' + self.types[0])
     else:
