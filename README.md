@@ -1,5 +1,5 @@
 ## Concepts and commands learned
-
+```
 git init # Started a local repo
 git remote add origin <repository_url> # Adding the local repo to the remote repo 
 git branch -M main # -M for renaming the branch we are currently in
@@ -9,3 +9,4 @@ git commit -m 'Your commit message here!' # How to write commits and the respect
 git status # Know the current branch with additional information about the commits&changes
 git branch # Know the current branch
 git push -u origin main # Making an upstream of the changes to the current branch, so that they can be saved in a remote repo
+```
