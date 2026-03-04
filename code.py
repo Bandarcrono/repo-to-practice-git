@@ -33,7 +33,7 @@ pikachu = Pokemon(25, 'Pikachu', ['Electric'], 'It has small electric sacs on bo
 charizard = Pokemon(6, 'Charizard', ['Fire', 'Flying'], 'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.', False)
 gyarados = Pokemon(130, 'Gyarados', ['Water', 'Flying'], 'It has an extremely aggressive nature. The HYPER BEAM it shoots from its mouth totally incinerates all targets.', False)
 
-megaCharizardX = Pokemon(6,'Mega Charizard X',['Fire','Dragon'],'Coolest Charizard in my opinion',True)
+MegaCharizardX = Pokemon(6,'Mega Charizard X',['Fire','Dragon'],'Coolest Charizard in my opinion',True)
 
-megaCharizardX.display_details()
+MegaCharizardX.display_details()
 
