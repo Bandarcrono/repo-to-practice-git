@@ -13,5 +13,8 @@ git push -u origin main # Making an upstream of the changes to the current branc
 
 camelCase
 "Writing variables names like -> foodList = []"
+<br> 
 PascalCase
 "Writing varialbes names like -> FoodList = []"
+<br>
+Testing pull command.
