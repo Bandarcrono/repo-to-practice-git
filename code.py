@@ -30,7 +30,7 @@ class Pokemon:
       print(self.name + ' has already been caught!')
     else:
       print(self.name + ' hasn\'t been caught yet.')
-
+    
 # Pokémon objects
 pikachu = Pokemon(25, 'Pikachu', ['Electric'], 'It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.', True)
 charizard = Pokemon(6, 'Charizard', ['Fire', 'Flying'], 'It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.', False)

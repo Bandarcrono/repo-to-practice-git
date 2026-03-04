@@ -20,3 +20,5 @@ git push -u origin main # Making an upstream of the changes to the current branc
 "Writing varialbes names like -> FoodList = []"
 <br>
 Testing pull command.
+
+"I Want to work someday in the things I am passionate about."
