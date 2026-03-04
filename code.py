@@ -21,7 +21,7 @@ class Pokemon:
     else:
       print('Type: ' + self.types[0] + '/' + self.types[1])
     
-    print('Description: ' + self.description)
+    print('Description: ' + self.description + '\n')
 
     if self.isCaught:
       print(self.name + ' has already been caught!')
