@@ -11,7 +11,8 @@ git branch # Know the current branch
 git push -u origin main # Making an upstream of the changes to the current branch, so that they can be saved in a remote repo
 ```
 
-camelCase
+## camelCase
+<br>
 "Writing variables names like -> foodList = []"
 <br> 
 PascalCase
