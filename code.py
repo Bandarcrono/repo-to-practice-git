@@ -1,6 +1,6 @@
 # Codédex
 
-# Class definition
+# Class definition of a Pokedex object
 class Pokemon:
   def __init__(self, entry, name, types, description, isCaught):
     self.entry = entry
