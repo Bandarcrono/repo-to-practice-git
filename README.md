@@ -9,6 +9,8 @@ git commit -m 'Your commit message here!' # How to write commits and the respect
 git status # Know the current branch with additional information about the commits&changes
 git branch # Know the current branch
 git push -u origin main # Making an upstream of the changes to the current branch, so that they can be saved in a remote repo
+git pull # To update my internal repository to the current state in the branch
+git merge <name.branch> # Merging the <name.branch>  to the current branch 
 ```
 
 ## camelCase
@@ -20,3 +22,5 @@ git push -u origin main # Making an upstream of the changes to the current branc
 "Writing varialbes names like -> FoodList = []"
 <br>
 Testing pull command.
+
+"I Want to work someday in the things I am passionate about."

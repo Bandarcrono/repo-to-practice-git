@@ -30,7 +30,7 @@ class Pokemon:
       print(self.name + ' has already been caught!')
     else:
       print(self.name + ' hasn\'t been caught yet.')
-
+    
 # Pokémon objects
 
 charmander = Pokemon(25, 'Charmander', ['Electric'], 'It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.', True)
